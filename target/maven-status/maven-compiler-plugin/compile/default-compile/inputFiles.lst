@@ -1,0 +1,6 @@
+/home/vier/college/awd/categories/src/main/java/com/saintroche/categories/CategoryApplication.java
+/home/vier/college/awd/categories/src/main/java/com/saintroche/categories/controllers/CategoryController.java
+/home/vier/college/awd/categories/src/main/java/com/saintroche/categories/models/entities/Category.java
+/home/vier/college/awd/categories/src/main/java/com/saintroche/categories/repositories/CategoryRepository.java
+/home/vier/college/awd/categories/src/main/java/com/saintroche/categories/service/CategoryService.java
+/home/vier/college/awd/categories/src/main/java/com/saintroche/categories/service/CategoryServiceImp.java

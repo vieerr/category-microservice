@@ -1,0 +1,6 @@
+com/saintroche/categories/service/CategoryService.class
+com/saintroche/categories/CategoryApplication.class
+com/saintroche/categories/repositories/CategoryRepository.class
+com/saintroche/categories/models/entities/Category.class
+com/saintroche/categories/controllers/CategoryController.class
+com/saintroche/categories/service/CategoryServiceImp.class
