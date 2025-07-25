@@ -1,6 +1,24 @@
 ## Category Microservice
 
-To run it:
+The image is available at:
+
+https://hub.docker.com/r/vierpaspuel/category-microservice
+
+To pull it:
+
+1. Pull the image
+
+   ```
+    docker pull vierpaspuel/category-microservice
+   ```
+   or if you want the specific version 2
+
+   ```
+   docker pull vierpaspuel/category-microservice:v2
+   ```
+   You can go ahead and jump to the "To run it" section
+
+To build it:
 
 1. Compile the project:
 
@@ -25,10 +43,13 @@ To run it:
    #Add version tag if needed
    ```
 
-5. Run the Docker container:
+To run it:
+
+1. Run the Docker container:
 
    ```
     docker run -dit -p 8082:8003 --name category-service --network test-network -e PORT=8003 -e DB_HOST=test-db:3306 vierpaspuel/category-microservice:v2
     # v2 is the version tag, change it as needed
    ```
-6. Access it at http://localhost:8082/api/categories# category-microservice
+
+2. Access it at http://localhost:8082/api/categories
